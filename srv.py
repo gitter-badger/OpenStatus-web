@@ -1,9 +1,16 @@
 'OpenStatus-web - The OpenStatus front-end HTML page generator for OpenStatus.'
 'GNU General Public License version three or above - <http://gnu.org/licenses/gpl.txt>'
 
+class AppInfo():
+    version = "1.0.0.0"
+
+app = AppInfo()
+
 def about():
     'Display about information'
-    
+    print("OpenStatus-web (v" + app.version + ")\n")
+    exit()
+
 def render():
     'Render the HTML file for the frontend.'
 
