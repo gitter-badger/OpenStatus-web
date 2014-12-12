@@ -1,6 +1,8 @@
 'OpenStatus-web - The OpenStatus front-end HTML page generator for OpenStatus.'
 'GNU General Public License version three or above - <http://gnu.org/licenses/gpl.txt>'
 
+import OpenStatus as 0ostatus
+
 class AppInfo():
     version = "1.0.0.0"
 
@@ -14,6 +16,8 @@ def about():
 def render():
     'Render the HTML file for the frontend.'
     content = "<html>\n<head>\n<title<OpenStatus</title>\n</head>"
+    content = content + "\n<!-- Bootstrap stuff"
+    content = content + "\n<h1>Live Feed</h1>\n<p>Last Updated: " + o_status.timeline.last_update() + "</p>"
 
 def start_server():
     render()
