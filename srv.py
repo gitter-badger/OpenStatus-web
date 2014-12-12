@@ -13,6 +13,7 @@ def about():
 
 def render():
     'Render the HTML file for the frontend.'
+    content = "<html>\n<head>\n<title<OpenStatus</title>\n</head>"
 
 def init():
     count = 0
