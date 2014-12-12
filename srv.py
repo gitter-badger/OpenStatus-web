@@ -15,6 +15,10 @@ def render():
     'Render the HTML file for the frontend.'
     content = "<html>\n<head>\n<title<OpenStatus</title>\n</head>"
 
+def start_server():
+    render()
+    start_server()
+
 def init():
     count = 0
     for args in sys.argv:
