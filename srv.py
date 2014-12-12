@@ -23,3 +23,5 @@ def init():
             'Do nothing'
         elif count == 2:
             if args == "--help" or args == "-help": about()
+            elif args == "--start" or args == "-start": start_server()
+            else: print("'" + args + "' is not a valid command. Use `--help` for a list of available commands.")
