@@ -11,6 +11,7 @@ app = AppInfo()
 def about():
     'Display about information'
     print("OpenStatus-web (v" + app.version + ")\n")
+    print("Below is a list of available commands:\n\n")
     exit()
 
 def render():
