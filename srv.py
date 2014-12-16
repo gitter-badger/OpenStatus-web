@@ -16,9 +16,8 @@ def about():
 
 def render():
     'Render the HTML file for the frontend.'
-    content = "<!DOCTYPE html>\n<html lang="en">\n<head>\n"
-    content = content + "  <meta charset="utf-8">\n  <meta http-equiv="X-UA-Compatible" content="IE=edge">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n<meta name="description" content="">\n<meta name="author" content="">\n  <link rel="icon" href="../../favicon.ico">"
     
+
 
 def start_server():
     render()
