@@ -16,7 +16,9 @@ def about():
 
 def render():
     'Render the HTML file for the frontend.'
-    
+    header = open()
+    body = open() + "\n" + last_update_time_thing
+
 
 
 def start_server():
